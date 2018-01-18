@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union</title>
+    <link rel="stylesheet" href="css/vendor/vendor.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/vendor/vendor.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+  </head>
+  <body>
+    <div class="b-page">
+      <button data-popup="popup" class="b-btn">Open window</button>
+    </div>
+    <div data-type="popup" class="b-popup">
+      <div class="b-popup__container">
+        <div class="b-popup-header">
+          <button data-type="1" class="b-popup-header__button b-btn">Увеличить в двое</button>
+          <button data-type="2" class="b-popup-header__button b-btn">Уменьшить вдвое</button>
+          <button data-type="3" class="b-popup-header__button b-btn">Вернуть размер</button>
+        </div>
+        <div class="b-popup__content">
+          <div id="block" class="b-block"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
